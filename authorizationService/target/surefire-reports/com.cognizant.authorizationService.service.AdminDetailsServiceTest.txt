@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.cognizant.authorizationService.service.AdminDetailsServiceTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 5.26 s <<< FAILURE! - in com.cognizant.authorizationService.service.AdminDetailsServiceTest
+getUserDataById  Time elapsed: 0.511 s  <<< ERROR!
+java.util.NoSuchElementException: No value present
+	at com.cognizant.authorizationService.service.AdminDetailsServiceTest.getUserDataById(AdminDetailsServiceTest.java:44)
+
+loadUserByUsernameTestSuccess  Time elapsed: 0.007 s  <<< ERROR!
+org.springframework.security.core.userdetails.UsernameNotFoundException: UsernameNotFoundException
+	at com.cognizant.authorizationService.service.AdminDetailsServiceTest.loadUserByUsernameTestSuccess(AdminDetailsServiceTest.java:31)
+

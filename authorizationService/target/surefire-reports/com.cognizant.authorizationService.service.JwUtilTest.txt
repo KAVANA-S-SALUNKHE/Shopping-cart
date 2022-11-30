@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.cognizant.authorizationService.service.JwUtilTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.817 s <<< FAILURE! - in com.cognizant.authorizationService.service.JwUtilTest
+generateTokenTestSuccess  Time elapsed: 0.009 s  <<< ERROR!
+org.springframework.security.core.userdetails.UsernameNotFoundException: UsernameNotFoundException
+	at com.cognizant.authorizationService.service.JwUtilTest.generateTokenTestSuccess(JwUtilTest.java:52)
+
